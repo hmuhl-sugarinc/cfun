@@ -21,8 +21,6 @@ int main() {
 
   printf("(%d, %d)\n", p.x, p.y);
 
-  printf("%d\n", p);
-
   struct Person me;
   me.age = 34;
   me.height = 1842;

@@ -4,6 +4,8 @@ int main() {
   int i = 1234;
 
   printf("The value of i is %d.\n", i);
+
+  // '&' = "address of"
   printf("The address of i is 0x%0lX.\n", &i);
 
   // This is a pointer variable.
